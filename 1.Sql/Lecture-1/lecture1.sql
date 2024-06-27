@@ -1,5 +1,7 @@
-➡️Connect mysql
+➡️Command to enter into mysql:
     ---> \sql
+
+➡️Connect mysql:
     --->  \connect root@localhost:3306
     --->   password:Admin@123
 
