@@ -20,13 +20,13 @@
     ---> drop database <databasename>;
     example:drop database students;    
 
-➡️show particular database tables;
+➡️show particular database tables:
     ---> show tables;
 
 ➡️create new table command:
-       ---> create table user(firstname varchar(30),lastname varchar(30),email varchar(50),gender varcar(10),mobileNo int);
+    ---> create table user(firstname varchar(30),lastname varchar(30),email varchar(50),gender varcar(10),mobileNo int);
 
 ➡️describe or show perticular table(row and column)
-        --->desc user;
-                or
-        --->describe user;        
+    --->desc user;
+            or
+    --->describe user;        
