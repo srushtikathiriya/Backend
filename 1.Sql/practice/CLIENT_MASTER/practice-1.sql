@@ -15,7 +15,7 @@ select * from CLIENT_MASTER;
 -------------------------------Q-3---------------------------------
 
 a. select Name from CLIENT_MASTER;
-b.select * from CLIENT_MASTER;
+b. select * from CLIENT_MASTER;
 c. select Name,CITY,STATE from CLIENT_MASTER;
 d. select DESCRIPTION from product_master; 
 e. select * from CLIENT_MASTER where CITY = "Mumbai";
