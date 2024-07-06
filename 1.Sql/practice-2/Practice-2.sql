@@ -35,7 +35,5 @@ select contactFirstName from customers where contactFirstName like "a%e";
 
 select contactFirstName from customers where contactFirstName like "%ee";
 
-SELECT officeCode, COUNT(*) AS employee FROM employees GROUP BY officeCode ORDER BY officeCode;
-
 select max(creditlimit) from customers group by state;
 
