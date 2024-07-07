@@ -29,11 +29,13 @@ select contactFirstName from customers where contactFirstName like "s%h";
 
 select contactFirstName from customers where contactFirstName like "s%____";
 
--- select contactFirstName from customers where contactFirstName like "_________";
+ select contactFirstName from customers where contactFirstName like "________ ";
 
-select contactFirstName from customers where contactFirstName like "a%e";
+select contactFirstName from customers where contactFirstName like "a%e ";
 
 select contactFirstName from customers where contactFirstName like "%ee";
+
+select officecode,count(*) from employees group by officeCode;
 
 select max(creditlimit) from customers group by state;
 
