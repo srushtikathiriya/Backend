@@ -100,6 +100,12 @@ SELECT LAST_DAY("2024-06-07");
 
 -- select MONTHS_BETWEEN('20-june-2024','20-feb-2024') from dual;
 
-SELECT STR_TO_DATE("August 10 2017", "%M %d %Y");
+-- SELECT TO_DATE("August 10 2017", "%M %d %Y");
+
+-- select greatest ( to_date ( 'JAN 19, 2000', 'MON DD, YYYY' ),
+--                   to_date ( 'SEP 27, 1999', 'MON DD, YYYY' ),
+-- 		  to_date ( '13-Mar-2009', 'DD-Mon-YYYY' ) ) from dual;
+
+SELECT LEAST(3, 12, 34, 8, 25);  -- return smallest value
 
 
